@@ -5,3 +5,7 @@ verses=(
 "Romans 8:28 - All things work together for good to those who love God."
 "John 3:16 - For God so loved the world, that he gave his only Son."
 )
+
+
+# Randomly pick one
+echo "${verses[$RANDOM % ${#verses[@]}]}"
