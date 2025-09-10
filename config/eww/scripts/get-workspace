@@ -3,23 +3,23 @@
 workspace_id=$(hyprctl activeworkspace -j | jq -r '.id')
 
 if [ $workspace_id == 1 ]; then
-	echo "「　思想を閉ざす事勿れ\n変化を恐るる事勿れ　」"
+    echo "Psalm 23:1 - The Lord is my shepherd; I shall not want."
 elif [ $workspace_id == 2 ]; then
-	echo "「　望む真に非ず\n真実を常求めよ　」"
+    echo "Philippians 4:13 - I can do all things through Christ who strengthens me."
 elif [ $workspace_id == 3 ]; then
-	echo "「　科学をもって\n自然の理を理解せよ　」"
+    echo "Proverbs 3:5 - Trust in the Lord with all your heart and lean not on your own understanding."
 elif [ $workspace_id == 4 ]; then
-	echo "「　各々は　己が肉体を制する権利を持つものなり　」"
+    echo "Romans 12:2 - Do not be conformed to this world, but be transformed by the renewing of your mind."
 elif [ $workspace_id == 5 ]; then
-	echo "「　善に神必要非ず　」"
+    echo "Matthew 5:16 - Let your light shine before men, that they may see your good works."
 elif [ $workspace_id == 6 ]; then
-	echo "「　自業あれば　自得あり　」"
+    echo "Isaiah 40:31 - But those who hope in the Lord will renew their strength."
 elif [ $workspace_id == 7 ]; then
-	echo "「　己が欲するよう他を接せよ\n他の視点を尊重せよ　」"
+    echo "John 13:34 - Love one another as I have loved you."
 elif [ $workspace_id == 8 ]; then
-	echo "「　他人と　来たるべき未来を考慮せよ　」"
+    echo "Galatians 6:9 - Let us not become weary in doing good."
 elif [ $workspace_id == 9 ]; then
-	echo "「　人生一本道に非ず　」"
+    echo "Jeremiah 29:11 - For I know the plans I have for you, declares the Lord."
 elif [ $workspace_id == 10 ]; then
-	echo "「　去れば花園を築くべし　」"
+    echo "Psalm 119:105 - Your word is a lamp to my feet and a light to my path."
 fi
