@@ -21,4 +21,4 @@ promptinit
 prompt typewritten
 
 # Customize to your needs...
-export PATH=$PATH:/home/kaon/.spicetify
+export PATH=$PATH:/home/rivadmin/.spicetify
